@@ -1,0 +1,14 @@
+<Config>
+     <Path>XYZ</Path>
+     
+     <SampleFirst>  1                </SampleFirst>
+     <SampleLast>   6             </SampleLast>
+     <SampleStep>   1              </SampleStep>
+     <SampleFileWC>Sample_*.mzXML</SampleFileWC>
+     
+     <BlankFirst>   1              </BlankFirst>
+     <BlankLast>    6             </BlankLast>
+     <BlankStep>    1               </BlankStep>
+     <BlankFileWC>Blank_*.mzXML</BlankFileWC>
+     
+</Config>
