@@ -15,3 +15,5 @@ which is a modified version of the original Matlab file
 named 'mzxmlread.m'. 
 Comment out the following line (#465 in Matlab 2017b):  	
 out.scan = out.scan([out.scan.num]);
+
+The raw data is publicly available in the Zenodo repository. https://doi.org/10.5281/zenodo.3581227
