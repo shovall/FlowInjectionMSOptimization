@@ -9,12 +9,12 @@ folderPath1 = 'FOLDERPATH\*'; %%% Change to the correct folder path %%%
 folderPath2 = 'FOLDERPATH\*';
 singleRangePath1 = ''; %%% Write a path here%%%
 singleRangePath2 = ''; %%% Write a path here%%%
-plotFolder = ''; %%% Write a path here%%% Folder for figure
+plotFolder = ''; %%% Write a path here%%% Folder for figure plots
 plotFolderRaw1 = ''; %%% Write a path here%%% Folder for raw data #1
 plotFolderRaw2 = ''; %%% Write a path here%%% Folder for raw data #2
 strDesc1= 'Lip';
 strDesc2 = 'Met';
-% Suggesting ranges parameters:
+% Parameters for optimizing scan ranges:
 numRangesVec = [1,2,4,8,16,32,64];
 min1 = 70; max1 = 2500;
 min2 = 70; max2 = 2500;
@@ -22,8 +22,8 @@ overlap=2;
 %%%%%%%%% End of script parameters %%%%%%%%%
 
 % Loads exhaustive scanning using mass stitching of 20 m/z-wide ranges
-[DIMS_arr1,minMz,maxMz]  = LoadIdealExperiment(folderPath1);
-[DIMS_arr2,~,~]  = LoadIdealExperiment(folderPath2);
+[DIMS_arr1,minMz,maxMz]  = LoadExhaustiveSpectralStitching(folderPath1);
+[DIMS_arr2,~,~]  = LoadExhaustiveSpectralStitching(folderPath2);
 
 %Loads single range scans 70-2500
 config_xml1 = GetConfigXML(singleRangePath1);

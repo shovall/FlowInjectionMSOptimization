@@ -1,7 +1,6 @@
-function [DIMS_arr1,minMz,maxMz]  = LoadIdealExperiment(folderPath)
-% Loads the "ideal DIMS experiment": exhaustive scanning of small ranges,
-% starting from minMzThresh to maxMzThresh with a constant step (given as
-% input); the total range width is given as input (window)
+function [DIMS_arr1,minMz,maxMz]  = LoadExhaustiveSpectralStitching(folderPath)
+% Loads the exhaustive mass-stitching experiment: exhaustive scanning of small ranges,
+% starting from minMzThresh to maxMzThresh with a constant step (as in Config)
 
 global Config;
 
