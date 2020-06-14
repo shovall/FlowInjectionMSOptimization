@@ -16,4 +16,4 @@ named 'mzxmlread.m'.
 Comment out the following line (#465 in Matlab 2017b):  	
 out.scan = out.scan([out.scan.num]);
 
-The raw data is publicly available in the Zenodo repository. https://doi.org/10.5281/zenodo.3581227
+The raw data is publicly available in Metabolomics Workbench with the identifier ST001380 [https://doi.org/10.21228/M8P41V].
