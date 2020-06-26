@@ -1,11 +1,11 @@
 # FlowInjectionMSOptimization
 
-The code in this repository was used the generate the results appering in the paper: 
+The code in this repository was used the generate the results appering in the article: 
 Sarvin, B., Lagziel, S., Sarvin, N. et al. Fast and sensitive flow-injection mass spectrometry metabolomics by analyzing sample-specific ion distributions. Nat Commun 11, 3186 (2020). https://doi.org/10.1038/s41467-020-17026-6
 
 There are two config files:
-1. configFile.m, which contains configurations for the entire flow-injection mass spectrometry analysis, including the parameters for detecting significant m/z features.
-2. ConfigSamples.xml, which contains the information of the samples scanned (i.e. Samples and Blank names/name format).
+1. configFile.m, which contains configurations for the entire flow-injection mass spectrometry analysis, including the parameters for detecting reproducible m/z features (also reffered in the code as significant).
+2. ConfigSamples.xml, which contains the information of the samples scanned (i.e. Samples and Blank file names format).
 
 On the top of the script file you can find a section of the parameters for the script marked by:
 %%%%%%%%% Script parameters %%%%%%%%%
