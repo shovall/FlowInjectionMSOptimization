@@ -1,6 +1,7 @@
 # FlowInjectionMSOptimization
 
-The code in this repository was used the generate the results appering in the manuscript: A method for optimizing flow-injection mass spectrometry scan ranges for high-throughput metabolomics and lipidomics screening.
+The code in this repository was used the generate the results appering in the paper: 
+Sarvin, B., Lagziel, S., Sarvin, N. et al. Fast and sensitive flow-injection mass spectrometry metabolomics by analyzing sample-specific ion distributions. Nat Commun 11, 3186 (2020). https://doi.org/10.1038/s41467-020-17026-6
 
 There are two config files:
 1. configFile.m, which contains configurations for the entire flow-injection mass spectrometry analysis, including the parameters for detecting significant m/z features.
